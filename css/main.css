@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
+    font-family: 'Roboto Mono', monospace;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -63,6 +68,10 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100vh;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .home-main section {
     display: grid;
@@ -72,9 +81,28 @@ nav .profile-link a {
     margin-top: 80px;
 }
 .home-main-text {
+    font-family: 'Roboto mono', monospace;
     font-size: 30px;
     font-weight: 700px;
     letter-spacing: 10px;
-    color: black;
+    color: white;
     text-align: center;
+}
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background: #47cfac;
+    display: grid;
+    align-items: center;
+}
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
+}
+.news-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.new-right {
+    padding: 50px;
 }
