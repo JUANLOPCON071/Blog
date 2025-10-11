@@ -102,7 +102,16 @@ nav .profile-link a {
 .news-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background: rgb(224, 221, 221);
+}
+.new-left {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+.new-left p {
+    font-size: 20px;
+    font-weight: 700;
 }
 .new-right {
-    padding: 50px;
+    padding: 90px;
 }
