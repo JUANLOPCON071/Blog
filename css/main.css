@@ -99,19 +99,27 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 18px;
 }
-.news-main {
+.blogs-main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: rgb(224, 221, 221);
 }
-.new-left {
-    margin-top: 10px;
-    margin-left: 150px;
+.blogs-news-container {
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
 }
-.new-left p {
-    font-size: 20px;
-    font-weight: 700;
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
 }
-.new-right {
-    padding: 90px;
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img {
+
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p {
+    margin-bottom: 35px;
 }
